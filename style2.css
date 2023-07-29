@@ -1,0 +1,94 @@
+.div3{
+    margin: auto;
+    text-align: center;
+    border: 1px solid blue;
+    width: 80%;
+    margin-top: 30px;
+    animation: 3s slide ease-in-out;
+    box-shadow: 5px 5px  green;
+}
+button{
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 20px;
+
+}
+#oolll {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul{
+    display:block;
+}
+img{
+    border-radius: 60%;
+    /* height: 30%;
+    width: 30%; */
+}
+@keyframes slide {
+    0%{
+        transform: translateY(100vh);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+@media (max-width:500px){
+    .div1{
+        width: 80vw;
+        
+        height: 40vh;
+        margin-bottom: 30vh;
+    }
+    img{
+        margin-left: -5%;
+        height: 200px;
+        width: 330px;
+        margin-right: 20px;
+    }
+    .fet1{
+        height: 30px;
+        width: 150px;
+        border-radius: 30px;
+        font-size: 20px;
+    }
+    
+    button{
+        height: 30px;
+        width: 100px;
+        font-size: 13px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+
+}
+@media (max-width:350px){
+    .div1{
+        width: 80vw;
+        
+        height: 40vh;
+        margin-bottom: 30vh;
+    }
+    img{
+        /* margin-left: ; */
+        height: 150px;
+        width: 260px;
+        margin-right: 20px;
+    }
+    .fet1{
+        height: 30px;
+        width: 100px;
+        border-radius: 30px;
+        font-size: 20px;
+    }
+    
+    button{
+        height: 30px;
+        width: 100px;
+        font-size: 15px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+
+}
