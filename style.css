@@ -1,22 +1,43 @@
+body{
+    /* background-color: #d1dddb; */
+    background-color: #499360;
+}
 .div1{
+    /* background-color: #85b8cb; */
+    background-color: #295651;
     position: fixed;
     top: 30vh;
     left: 25%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: auto;
     width:50%;
     height: 30vh;
     display:flex;
     justify-content: space-around ;
     align-items: center;
-    box-shadow: 5px 5px  green;
+    /* box-shadow: 5px 5px  #1d6a96; */
+    box-shadow: 5px 5px #97baa4;
     animation: 3s slide ease-in-out;
+    border-radius: 30px;
+    animation: 3s infinite bounce ease-in-out;
+}
+@keyframes bounce {
+    0%{
+        transform: translateY(-2vh);
+    }
+    100%{
+        transform: translateY(2px);
+    }
 }
 .fet1{
+    border: 0px ;
     height: 30px;
     width: 150px;
     border-radius: 30px;
     font-size: 20px;
+    /* background-color: #283b42; */
+    background-color: #232941;
+    color: white;
 }
 @keyframes slide {
     0%{

@@ -1,34 +1,61 @@
+body{
+    /* background-color: #d1dddb; */
+    background-color: #499360;
+}
 .div3{
+    background-color: #295651;
     position: fixed;
     top: 25vh;
     left: 10%;
     margin: auto;
     text-align: center;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 80%;
-    animation: 5s slide ease-in;
-    box-shadow: 5px 5px  green;
-    height: 50vh;
+    animation: 3s slide ease-in;
+    box-shadow: 5px 5px  #97baa4;
+    height: 60vh;
+    border-bottom-right-radius: 40px;
 }
 input{
+    background-color: #97baa4;
     text-align: center;
     height: 30px;
-    font-size: 17px;
+    font-size: 18px;
+    font-weight: bolder;
     width: 100px;
     border: 1px solid black;
     margin-bottom: 10px;
+    color: black;
+}
+img{
+    border-radius: 50%;
+    margin-top: 4px;
 }
 button{
     height: 30px;
     margin-bottom: 0px;
     width: 100px;
     font-size: 20px;
+    color: black;
+    border: 1px solid black;
     border-radius: 20px;
+    background-color: #adc7b6;
 }
 #rtq {
     font-size: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+
+    animation: 2s infinite bounce ease-in-out;
 }
+@keyframes bounce {
+    0%{
+        transform: translateY(-1vh);
+    }
+    100%{
+        transform: translateY(1px);
+    }
+}
+
 ul{
     display:block;
 }
@@ -41,10 +68,10 @@ ul{
     }
 }
 @media (max-width:500px){
-    .div1{
+    .div3{
         width: 80vw;
         
-        height: 40vh;
+        height: 50vh;
         margin-bottom: 30vh;
     }
     .fet1{
