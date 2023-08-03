@@ -9,7 +9,7 @@ body{
     /* border: 1px solid blue; */
     width: 80%;
     margin-top: 30px;
-    animation: 3s slide ease-in-out;
+    animation: 2s slide ease-in-out;
     box-shadow: 5px 5px  #97baa4;
     border-top-left-radius: 40px;
 }
@@ -44,10 +44,10 @@ img{
 }
 @keyframes slide {
     0%{
-        transform: translateY(100vh);
+        transform: translatex(100vw);
     }
     100%{
-        transform: translateY(0px);
+        transform: translatex(0px);
     }
 }
 @media (max-width:500px){

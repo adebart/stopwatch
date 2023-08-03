@@ -11,10 +11,10 @@ body{
     text-align: center;
     /* border: 1px solid blue; */
     width: 80%;
-    animation: 3s slide ease-in;
+    animation: 2s slide ease-in;
     box-shadow: 5px 5px  #97baa4;
     height: 60vh;
-    border-bottom-right-radius: 40px;
+    border-bottom-right-radius: 40px ;
 }
 input{
     background-color: #97baa4;
@@ -32,6 +32,7 @@ img{
     margin-top: 4px;
 }
 button{
+    margin: auto;
     height: 30px;
     margin-bottom: 0px;
     width: 100px;
@@ -61,10 +62,10 @@ ul{
 }
 @keyframes slide {
     0%{
-        transform: translateY(100vh);
+        transform: translatex(-100vw);
     }
     100%{
-        transform: translateY(0px);
+        transform: translatex(0px);
     }
 }
 @media (max-width:500px){
